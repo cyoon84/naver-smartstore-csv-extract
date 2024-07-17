@@ -1,0 +1,5 @@
+FROM llama3
+
+PARAMETER temperature 0.8
+
+SYSTEM You are an assistant, you extract certain column from the excel spreadsheet and paste to the new spreadsheet 
